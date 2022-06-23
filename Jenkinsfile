@@ -20,7 +20,7 @@ pipeline {
 
     stage('UAT') {
       steps {
-        sh 'echo "Test Completed"'
+        sh 'ec "Test Completed"'
       }
     }
 
